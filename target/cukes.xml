@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.33">
-<testcase classname="application account functionality" name="Home Page default login with proper credentials" time="0.067">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.288">
+<testcase classname="application account functionality" name="Home Page default login with proper credentials" time="0.061">
 <system-out><![CDATA[Given User is on netbanking landing page....................................passed
 When user login into the application with "shyam" and "test1234"............passed
 And User clicks on login button.............................................passed
@@ -8,7 +8,7 @@ Then Home page is populated.................................................pass
 And Cards displayed are "false".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="application account functionality" name="Home Page with data parameterization" time="0.003">
+<testcase classname="application account functionality" name="Home Page with data parameterization" time="0.004">
 <system-out><![CDATA[Given User is on netbanking landing page....................................passed
 When user sign up with details "jackson" and "temp123"......................passed
 And User clicks on login button.............................................passed
@@ -16,7 +16,7 @@ Then Home page is populated.................................................pass
 And Cards displayed are "false".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="application account functionality" name="Home Page with data parameterization 2" time="0.004">
+<testcase classname="application account functionality" name="Home Page with data parameterization 2" time="0.005">
 <system-out><![CDATA[Given User is on netbanking landing page....................................passed
 When user sign up with details "johnson" and "temp456"......................passed
 And User clicks on login button.............................................passed
@@ -24,7 +24,7 @@ Then Home page is populated.................................................pass
 And Cards displayed are "false".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="application login functionality" name="Home Page default login with proper credentials" time="0.006">
+<testcase classname="application login functionality" name="Home Page default login with proper credentials" time="0.005">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then check if browser is started............................................passed
@@ -46,7 +46,7 @@ Then Home page is populated.................................................pass
 And Cards displayed are "false".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="application login functionality" name="Home Page with data parameterization 2" time="0.004">
+<testcase classname="application login functionality" name="Home Page with data parameterization 2" time="0.003">
 <system-out><![CDATA[Given Validate the browser..................................................passed
 When Browser is triggered...................................................passed
 Then check if browser is started............................................passed
@@ -57,7 +57,7 @@ Then Home page is populated.................................................pass
 And Cards displayed are "false".............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="application login functionality to check hooks" name="Home Page default login with proper credentials for Regression" time="0.007">
+<testcase classname="application login functionality to check hooks" name="Home Page default login with proper credentials for Regression" time="0.005">
 <system-out><![CDATA[Given User is on netbanking landing page....................................passed
 When user login into the application with "arjunk" and "temp1234"...........passed
 And User clicks on login button.............................................passed
